@@ -1,0 +1,38 @@
+{
+    "read" : {
+        "maxPoolSize": "15"
+    },
+    "write" : {
+        "maxPoolSize": "15"
+    },
+    "installations": {
+        "read" : {
+            "baseUri": "mongodb://localhost:27017/collections",
+            "maxPoolSize": "10",
+            "connectTimeoutMS": "15"
+        },
+        "write" : {
+            "baseUri": "mongodb://localhost:27017/collections",
+            "maxPoolSize": "10",
+            "connectTimeoutMS": "15"
+        }
+    },
+    "mongodbPerApp": {
+        "cff9dc8b-1e74-461e-9f76-0337f77d77ed": {
+            "installations": {
+                "read" : {
+                    "baseUri": "mongodb://localhost:27017/collections",
+                    "maxPoolSize": "10",
+                    "connectTimeoutMS": "15",
+                    "collection": "installations_wat_up"
+                },
+                "write" : {
+                    "baseUri": "mongodb://localhost:27017/collections",
+                    "maxPoolSize": "10",
+                    "connectTimeoutMS": "15",
+                    "collection": "installations_wat_up"
+                }
+            }
+        }
+    }
+}

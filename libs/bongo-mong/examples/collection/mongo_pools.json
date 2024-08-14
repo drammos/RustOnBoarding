@@ -1,0 +1,20 @@
+{
+    "read" : {
+        "maxPoolSize": "15"
+    },
+    "write" : {
+        "maxPoolSize": "15"
+    },
+    "redemptions": {
+        "read" : {
+            "baseUri": "mongodb://localhost:27017/collections",
+            "maxPoolSize": "10",
+            "connectTimeoutMS": "15"
+        },
+        "write" : {
+            "baseUri": "mongodb://localhost:27017/collections",
+            "maxPoolSize": "10",
+            "connectTimeoutMS": "15"
+        }
+    }
+}

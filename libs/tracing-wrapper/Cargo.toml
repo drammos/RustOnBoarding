@@ -1,0 +1,21 @@
+[package]
+edition = "2021"
+name = "tracing-wrapper"
+version = "0.1.0"
+
+[lib]
+name = "tracing_wrapper"
+path = "src/lib.rs"
+
+[features]
+default = ["enable_sentry"]
+enable_sentry = []
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+sentry = {version = "0.24", features = ["tracing"]}
+tracing = "0.1"
+tracing-bunyan-formatter = "0.3"
+tracing-futures = "0.2"
+tracing-subscriber = {version = "0.3", features = ["env-filter", "fmt", "std"]}

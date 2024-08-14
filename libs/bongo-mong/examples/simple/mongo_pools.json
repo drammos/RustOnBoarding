@@ -1,0 +1,20 @@
+{
+    "read" : {
+        "maxPoolSize": "15"
+    },
+    "write" : {
+        "maxPoolSize": "15"
+    },
+    "redemptions": {
+        "read" : {
+            "baseUri": "mongodb://wat.com/redemptions",
+            "maxPoolSize": "10",
+            "connectTimeoutMS": "15"
+        },
+        "write" : {
+            "baseUri": "mongodb://wat.com/redemptions",
+            "maxPoolSize": "10",
+            "connectTimeoutMS": "15"
+        }
+    }
+}
