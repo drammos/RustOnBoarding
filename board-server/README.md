@@ -1,6 +1,5 @@
 # Rust Board server
 
-The task is [here](https://wappier.atlassian.net/wiki/spaces/EN/pages/2382888964/Rust+Onboarding+Project+Specs?src=mail&src.mail.action=view&src.mail.notification=com.atlassian.confluence.plugins.confluence-content-notifications-plugin%3Apage-created-notification&src.mail.recipient=62e798771323922c61e133a8&src.mail.timestamp=1660204527114).
 
 ## Tools
 
